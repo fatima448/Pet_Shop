@@ -712,26 +712,18 @@ footer {
 }
 
 @media (max-width: 568px) {
-  .container {
-    padding: 6px;
-  }
-  .logo h1 {
-    font-size: 20px;
-  }
-
   .nav {
     gap: 2px;
-    padding: 0;
+    padding: 2px;
   }
   .nav-links {
     margin-bottom: 5px;
     padding-left: 0;
     gap: 8px;
     margin-right: 0;
-    flex-wrap: wrap;
   }
   .nav-links li a {
-    font-size: 15px;
+    font-size: 14px;
   }
   .nav-right {
     margin-right: 5px;

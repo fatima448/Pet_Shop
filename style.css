@@ -213,7 +213,6 @@ div a {
   color: white;
 }
 #contact {
-  padding: 90px;
   background-image: linear-gradient(35deg, #ffefdfae, #fcf7f3ae);
 }
 .contact-wrapper {
@@ -679,15 +678,17 @@ footer {
     flex-flow: column-reverse;
     justify-content: center;
     align-items: center;
+    
   }
   .contact-form {
-    width: 100%;
+    width: 90%;
   }
   .contact-info {
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-bottom:10px;
   }
   .contact-item i {
     font-size: 15px;

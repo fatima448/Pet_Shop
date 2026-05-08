@@ -643,18 +643,19 @@ footer {
   .category-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  .cards {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .summary {
-    width: 60%;
-  }
+
   .contact-form {
     width: 50%;
   }
   .contact-info {
     width: 35%;
     padding-left: 35px;
+  }
+    .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .summary {
+    width: 60%;
   }
 }
 
@@ -736,7 +737,9 @@ footer {
     width: 100%;
     padding: 20px 5px;
   }
-
+  .category-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .contact-info {
     width: 80%;
     padding: 0;
@@ -744,9 +747,7 @@ footer {
   .contact-item p {
     font-size: 6px;
   }
-  .category-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
+
   .cards {
     grid-template-columns: repeat(1, 1fr);
   }

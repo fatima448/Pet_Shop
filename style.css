@@ -690,8 +690,8 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 75%;
-    margin-bottom: 10px;
+    width: 80%;
+    margin-bottom: 15px;
   }
   .contact-item i {
     font-size: 15px;
@@ -736,9 +736,9 @@ footer {
   .summary {
     width: 90%;
   }
-  .contact-item {
-    display: flex;
-    flex-direction: column;
+  .contact-info {
+    width: 80%;
+    padding: 0;
   }
   .contact-item p {
     font-size: 6px;

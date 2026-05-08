@@ -681,13 +681,13 @@ footer {
     
   }
   .contact-form {
-    width: 90%;
+    width: 80%;
   }
   .contact-info {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     margin-bottom:10px;
   }
   .contact-item i {

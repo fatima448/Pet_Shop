@@ -622,7 +622,7 @@ footer {
 
 @media (max-width: 1024px) {
   .container {
-    padding: 30px;
+    padding: 15px;
   }
 
   .nav-links li a {
@@ -670,11 +670,11 @@ footer {
     padding: 0 7px;
   }
   .nav-links {
-    margin: 5px 0;
+    margin: 4px 0;
     padding-left: 0;
   }
   .nav-links li a {
-    margin: 2px 0 5px 0;
+    margin: 2px 0 2px 0;
   }
   .contact-wrapper {
     display: flex;

@@ -34,14 +34,14 @@ nav {
   position: relative;
 }
 .nav {
-   display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   width: 100%;
 }
 .nav-links {
-   list-style: none;
+  list-style: none;
   display: flex;
   align-items: center;
   gap: 20px;
@@ -65,7 +65,7 @@ nav {
   color: #333;
 }
 .nav-right {
-   display: flex;
+  display: flex;
   align-items: center;
   gap: 15px;
   margin-left: 0;
@@ -146,11 +146,9 @@ div a {
   letter-spacing: -1px;
   color: #333;
   padding-top: 10px;
-  
 }
 .header h2 span {
   color: #418957;
-  
 }
 .header p {
   font-size: 18px;
@@ -624,13 +622,12 @@ footer {
 
 @media (max-width: 1024px) {
   .container {
-    padding: 20px;
+    padding: 30px;
   }
-  
+
   .nav-links li a {
     font-weight: 700;
     font-size: 16px;
-    
   }
   .hero-inner {
     width: 80%;
@@ -652,13 +649,20 @@ footer {
   .summary {
     width: 60%;
   }
+  .contact-form {
+    width: 50%;
+  }
+  .contact-info {
+    width: 35%;
+    padding-left: 35px;
+  }
 }
 
 @media (max-width: 768px) {
   .search-box {
     display: none;
   }
-  .nav{
+  .nav {
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -669,8 +673,8 @@ footer {
     margin: 5px 0;
     padding-left: 0;
   }
-  .nav-links li a{
-    margin:2px 0 5px 0;
+  .nav-links li a {
+    margin: 2px 0 5px 0;
   }
   .contact-wrapper {
     display: flex;
@@ -678,7 +682,6 @@ footer {
     flex-flow: column-reverse;
     justify-content: center;
     align-items: center;
-    
   }
   .contact-form {
     width: 80%;
@@ -687,8 +690,8 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 80%;
-    margin-bottom:10px;
+    width: 70%;
+    margin-bottom: 10px;
   }
   .contact-item i {
     font-size: 15px;
@@ -709,14 +712,14 @@ footer {
 }
 
 @media (max-width: 568px) {
-  .container{
+  .container {
     padding: 10px;
   }
   .nav-links {
-    margin-bottom:5px ;
+    margin-bottom: 5px;
     padding-left: 0;
   }
-  .nav-right{
+  .nav-right {
     margin-right: 5px;
   }
   .cards {

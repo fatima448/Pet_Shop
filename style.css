@@ -622,7 +622,7 @@ footer {
 
 @media (max-width: 1024px) {
   .container {
-    padding: 15px;
+    padding: 20px 50px;
   }
 
   .nav-links li a {
@@ -660,6 +660,9 @@ footer {
 }
 
 @media (max-width: 768px) {
+  .container{
+    padding: 15px;
+  }
   .search-box {
     display: block;
     width: 100%;
@@ -741,7 +744,7 @@ footer {
     align-items: center;
     max-width: 100%;
     position: relative;
-    right: 5px;
+    right :5%;
      
   }
   .nav-right a {
